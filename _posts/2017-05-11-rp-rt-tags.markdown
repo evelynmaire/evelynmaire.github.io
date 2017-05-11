@@ -1,0 +1,36 @@
+---
+layout: post
+title:  "&lt;rp&gt; and &lt;rt&gt; tags"
+date:   2017-05-11 13:17:51 +1200
+categories: japanese
+---
+
+The &lt;rt&gt; tag is used inside the &lt;ruby&gt; tag to denote what does above the kanji character in question. It can only be properly read by the browser if the browser supports &lt;ruby&gt; annotations. The use of the &lt;rp&gt; tag around brackets will mean if the browser does not support ruby annotations, the ruby text will simply display next to the kanji in brackets like so:
+
+<p lang="ja">明日(Ashita) 明日(あした)
+<p lang="ja">攻殻機動隊(こうかくきどうたい)
+
+<pre><code class="language-markup">&lt;ruby>
+明日
+  &lt;rp>(&lt;/rp>
+  &lt;rt>Ashita&lt;/rt>
+  &lt;rp>)&lt;/rp>
+&lt;/ruby></code></pre>
+Outputs:
+
+<ruby>明日<rp>(</rp><rt>Ashita</rt><rp>)</rp></ruby>
+
+<pre><code class="language-html">&lt;ruby>
+明
+  &lt;rp>(&lt;/rp>
+  &lt;rt>あ&lt;/rt>
+  &lt;rp>)&lt;/rp>
+日
+  &lt;rp>(&lt;/rp>
+  &lt;rt>した&lt;/rt>
+  &lt;rp>)&lt;/rp>
+&lt;/ruby></code></pre>
+Outputs:
+<ruby>明<rp>(</rp><rt>あ</rt><rp>)</rp>日<rp>(</rp><rt>した</rt><rp>)</rp></ruby>
+
+While it is possible to have the &lt;rt&gt; tag without the brackets and &lt;rp&gt; tags, keep in mind your website will not be accessible from older browsers and your kanji will simply show as normal kanji.
