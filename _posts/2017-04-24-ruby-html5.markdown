@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "`ruby` HTML5"
+title:  "&lt;ruby&gt; HTML5"
 date:   2017-04-24 23:32:51 +1200
 categories: japanese
 ---
