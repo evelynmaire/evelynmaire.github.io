@@ -45,7 +45,3 @@ While watch tasks are running open a new Terminal window to run Browsersync.
 run: `npm run browser-sync`
 
 Sync browser when all HTML files and all files in the 'public' directory change.
-
-## Licence
-
-Licensed under the MIT Licence
