@@ -1,1 +1,0 @@
-Find flexbox reference sheet <a href="http://evelyn.wtf/flexbox/">here</a>.
