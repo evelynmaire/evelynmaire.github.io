@@ -5,8 +5,8 @@ title: Evelyn Máire
 description:  Web-card of Evelyn Máire.
 
 # A brief blurb about yourself
-content: Finalist student studying at the University of Otago with an interest in Asian religion and culture. 
-<br>Hobbyist coder since Neopets ✌️
+content: Finalist student studying at the University of Otago with an interest in Asian religion and culture.   
+  Hobbyist coder since Neopets ✌️
 
 # Add your social links
 social:
@@ -14,6 +14,8 @@ social:
     url: https://github.com/evelynmaire
   - platform: linkedin
     url: https://www.linkedin.com/in/evelynmaire/
+  - platform: goodreads
+    url: https://www.goodreads.com/user/show/3611216-evelyn
 
 # General settings
 # url: http://brianmaierjr.github.com/uni
